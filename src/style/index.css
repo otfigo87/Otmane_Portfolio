@@ -175,4 +175,23 @@ main {
   transform: rotate(30deg) scaleX(1.2);
   transform-origin: center;
   transition: 0.3s;
+}
+
+.cursor {
+  width: 62px;
+  height: 62px;
+  border: 1px solid #00c1ec;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: 500ms ease-out;
+  z-index: 2;
+  -webkit-backdrop-filter: brightness(115%);
+          backdrop-filter: brightness(115%);
+}
+
+.cursor.hovered {
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=index.css.map */
