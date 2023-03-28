@@ -28,6 +28,9 @@
         transition: .4s;
         padding: 10px;
         transition: all 0.8s;
+        i {
+            margin-left: 5px;
+        }
 
         &:hover {
             transform: scale(1.3);
