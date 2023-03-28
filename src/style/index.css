@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Questrial-Regular.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/Michroma-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+*::-moz-selection {
+  color: #fafeff;
+  background: #00c1ec;
+}
+*::selection {
+  color: #fafeff;
+  background: #00c1ec;
+}
+
+html {
+  scroll-behavior: unset;
+}
+
+a,
+a:visited {
+  color: rgb(141, 141, 141);
+}
+
+body {
+  font-family: "font-1", sans-serif;
+  height: 100vh;
+  background-color: #fafeff;
+  color: rgb(40, 40, 40);
+  overflow: hidden;
+}
+@media screen and (max-width: 430px) {
+  body {
+    position: relative;
+    max-width: 100vw;
+    overflow-y: initial;
+  }
+}
+
+main {
+  position: relative;
+}
+
+.button {
+  background: #e7f7fe;
+  height: 55px;
+  width: 126px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.button:hover {
+  letter-spacing: 1px;
+  color: #00c1ec;
+}/*# sourceMappingURL=index.css.map */
