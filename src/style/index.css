@@ -101,4 +101,78 @@ main {
 }
 .notFound h3:hover {
   transform: scale(1.3);
+}
+
+.navigation {
+  position: absolute;
+  top: 1rem;
+  left: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 28px;
+  color: rgb(141, 141, 141);
+}
+.navigation:before {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #e7f7fe;
+  top: -150px;
+  left: -160px;
+  z-index: -1;
+  animation: navAnim 17s infinite alternate;
+}
+@keyframes navAnim {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 430px) {
+  .navigation:before {
+    height: 50px;
+    width: 50px;
+  }
+}
+.navigation .nav-active {
+  color: rgb(40, 40, 40);
+}
+.navigation ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+.navigation ul:hover li:hover {
+  color: rgb(40, 40, 40);
+}
+.navigation .nav-portfolio {
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+  color: rgb(141, 141, 141);
+}
+.navigation .nav-portfolio:hover .nav-projects,
+.navigation .nav-portfolio .nav-projects:hover {
+  visibility: visible;
+  opacity: 1;
+}
+.navigation .nav-portfolio:hover .nav-projects li,
+.navigation .nav-portfolio .nav-projects:hover li {
+  transform: rotate(0deg);
+}
+.navigation .nav-portfolio .nav-projects {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0 40px;
+  width: 300px;
+  transform: translateX(70px);
+  transition: 0.3s;
+  perspective: 500px;
+}
+.navigation .nav-portfolio .nav-projects li {
+  transform: rotate(30deg) scaleX(1.2);
+  transform-origin: center;
+  transition: 0.3s;
 }/*# sourceMappingURL=index.css.map */
