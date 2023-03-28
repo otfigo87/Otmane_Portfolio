@@ -25,6 +25,7 @@ const SocialMedia = () => {
         <a
           href="https://github.com/otfigo87"
           target="_blank"
+          rel="noreferrer"
           className="hover"
           onMouseOver={anim}
         >
@@ -35,6 +36,7 @@ const SocialMedia = () => {
         <a
           href="https://twitter.com"
           target="_blank"
+          rel="noreferrer"
           className="hover"
           onMouseOver={anim}
         >
@@ -45,6 +47,7 @@ const SocialMedia = () => {
         <a
           href="https://linkedin.com/in/otmane-aatik"
           target="_blank"
+          rel="noreferrer"
           className="hover"
           onMouseOver={anim}
         >

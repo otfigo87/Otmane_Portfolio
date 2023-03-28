@@ -225,4 +225,147 @@ main {
 }
 .social-network ul a:hover {
   color: black;
+}
+
+.dynamic-text {
+  position: relative;
+  display: flex;
+}
+.dynamic-text #text-target {
+  display: flex;
+  width: 300px;
+  text-align: left;
+  animation: color 30s alternate infinite;
+  perspective: 200px;
+  transform: translateX(26px);
+}
+.dynamic-text .word {
+  position: absolute;
+}
+@keyframes color {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: #ec006e;
+  }
+  100% {
+    color: blue;
+  }
+}
+.dynamic-text .letter {
+  transform: translateZ(200px);
+}
+@keyframes anim {
+  25% {
+    transform: translateZ(0px);
+    opacity: 1;
+  }
+  32% {
+    opacity: 0;
+    transform: translateZ(-280px) translateX(200px);
+  }
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+.home:after {
+  content: "";
+  height: 800px;
+  width: 800px;
+  background: #e7f7fe;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -480px;
+  right: 0px;
+  z-index: -2;
+  animation: homeAnim 26s infinite alternate;
+}
+@media screen and (max-width: 650px) {
+  .home:after {
+    height: 400px;
+    width: 400px;
+    bottom: -270px;
+  }
+}
+@keyframes homeAnim {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 430px) {
+  .home:after {
+    display: none;
+  }
+}
+.home .home-main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 95%;
+}
+.home .home-main .main-content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.home .home-main .main-content h1 {
+  font-size: 3.7rem;
+  position: relative;
+  font-family: "font-2", serif;
+}
+@media screen and (max-width: 650px) {
+  .home .home-main .main-content h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home .home-main .main-content h1 {
+    font-size: 5rem;
+  }
+}
+.home .home-main .main-content h1:before {
+  content: "";
+  position: absolute;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border: 1px #00c1ec solid;
+  top: -40px;
+  left: -180px;
+  z-index: -1;
+}
+@media screen and (max-width: 850px) {
+  .home .home-main .main-content h1:before {
+    height: 110px;
+    width: 110px;
+    left: -40px;
+    top: -15px;
+  }
+}
+.home .home-main .main-content h2 {
+  font-size: 4.2rem;
+  font-weight: 100;
+}
+@media screen and (max-width: 650px) {
+  .home .home-main .main-content h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home .home-main .main-content h2 {
+    font-size: 5rem;
+  }
+}
+.home .credits {
+  position: absolute;
+  right: 1rem;
+  color: grey;
+  text-decoration: underline;
 }/*# sourceMappingURL=index.css.map */
