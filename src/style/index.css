@@ -634,8 +634,8 @@ main {
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 50%;
-     object-position: 50%;
+  -o-object-position: 0%;
+     object-position: 0%;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -645,7 +645,7 @@ main {
 .project .project-main .img-content .img-container img:hover,
 .project .project-main .img-content .img-container img span:hover img {
   transform: scale(1.2);
-  filter: opacity(10%) contrast(150%);
+  filter: opacity(8%) contrast(130%);
 }
 .project .project-main .img-content .img-container span {
   visibility: hidden;

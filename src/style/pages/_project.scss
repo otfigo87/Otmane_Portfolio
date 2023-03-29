@@ -199,7 +199,7 @@
         img {
           overflow: hidden;
           object-fit: cover;
-          object-position: 50%;
+          object-position: 0%;
           width: 100%;
           height: 100%;
           position: absolute;
@@ -209,7 +209,7 @@
           &:hover,
           span:hover img{
             transform: scale(1.2);
-            filter: opacity(10%) contrast(150%);
+            filter: opacity(8%) contrast(130%);
           }
         }
         span {

@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["React", "Framer-motion", "Styled-Components"],
     infos:
       "Webapp to showcase the stunning portfolio of a professional photographer. With high-quality images and easy navigation, potential clients can browse the photographer's work and learn about their services.",
-    img: "./assets/img/projet-1.jpg",
+    img: "./assets/img/Screenshot2.png",
     link: "http://www.google.com",
   },
   {
