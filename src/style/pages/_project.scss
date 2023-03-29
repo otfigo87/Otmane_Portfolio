@@ -26,7 +26,7 @@
   }
 
   .navigation {
-    top: 5px;
+    top: 8px;
     left: 60%;
     font-size: 1.2rem;
     line-height: 20px;
@@ -148,7 +148,8 @@
       }
       li {
         font-size: 1.5rem;
-        color:rgb(54, 53, 53);
+        font-family: font-2 ;
+        color:rgb(55, 60, 110);
 
         @media screen and (max-width: 700px){
           font-size: 1.1rem;
@@ -161,7 +162,7 @@
     .img-content {
       position: relative;
       text-align: left;
-      margin-left: 10px;
+      margin-left: 20px;
 
       @media screen and (max-width: 700px){
         text-align: center;
@@ -188,7 +189,7 @@
           height: 150px;
           width: 280px
         }
-
+//visible details
         &:hover span,
         span:hover {
             visibility: visible;
@@ -212,6 +213,7 @@
           }
         }
         span {
+          visibility: hidden;
           position: absolute;
           bottom: 20px;
           left: 0;
@@ -220,7 +222,6 @@
           margin: 0 auto;
           line-height: 34px;
           font-size: 1.5rem;
-          visibility: hidden;
           transition: 0.5s ease;
           transform: translateY(200px);
 
