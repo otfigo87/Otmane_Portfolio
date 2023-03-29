@@ -4,6 +4,16 @@ import { projectsData } from "../data/projectsData";
 const Project = ({ projectNumber }) => {
   // console.log(projectData)
   const [currentProject] = useState(projectsData[projectNumber]);
+  //background bubble size and position
+  const [left, setLeft] = useState();
+  const [top, setTop] = useState();
+  const [size, setSize] = useState();
+  // random sizing $ positioning for the after circle every time the component mounts
+  useEffect(() => {
+    setLeft(Math.floor(Math.random() * 200 + 700) + "px");
+    setTop(Math.floor(Math.random() * 200 + 150) + "px");
+    setSize("scale(" + (Math.random() + 0.7) + ")");
+  }, []);
 
   return (
     <div className="project-main">
@@ -22,8 +32,26 @@ const Project = ({ projectNumber }) => {
             <h3>{currentProject.title}</h3>
             <p>{currentProject.infos}</p>
           </span>
-          <img src={currentProject.img} alt={currentProject.title} />
+          <img
+            src={currentProject.img}
+            alt={currentProject.title}
+            className="img"
+          />
         </div>
+        <div className="button-container">
+          <a
+            href={currentProject.link}
+            target="_blank"
+            className="hover"
+            rel="noopener noreferrer"
+          >
+            <span className="button">Discover more</span>
+          </a>
+        </div>
+        <span
+          className="random-circle"
+          style={{ left, top, transform: size }}
+        ></span>
       </div>
     </div>
   );
