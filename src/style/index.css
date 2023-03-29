@@ -634,8 +634,8 @@ main {
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0%;
-     object-position: 0%;
+  -o-object-position: 50%;
+     object-position: 50%;
   width: 100%;
   height: 100%;
   position: absolute;
