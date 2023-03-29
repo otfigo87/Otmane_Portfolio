@@ -25,7 +25,7 @@ const DynamicText = () => {
 
       const loop = () => {
         setTimeout(() => {
-          if (wordIndex >= array.length) {
+          if (wordIndex >= array.length) { // Rerun after you loop over all the words
             wordIndex = 0;
             letterIndex = 0;
             loop();
@@ -33,7 +33,7 @@ const DynamicText = () => {
             createLetter();
             letterIndex++;
             loop();
-          } else {
+          } else { //next word
             letterIndex = 0;
             wordIndex++;
             setTimeout(loop, 2500);
