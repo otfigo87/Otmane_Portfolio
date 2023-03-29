@@ -368,4 +368,26 @@ main {
   right: 1rem;
   color: grey;
   text-decoration: underline;
+}
+
+.scroll a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  font-size: 4rem;
+  color: rgb(184, 183, 183);
+  transition: 0.25s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 0 14px;
+}
+.scroll a:hover {
+  font-size: 5rem;
+}
+.scroll .left {
+  left: 15px;
+}
+.scroll .right {
+  right: -24px;
 }/*# sourceMappingURL=index.css.map */
