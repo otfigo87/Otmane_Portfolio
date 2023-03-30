@@ -868,11 +868,6 @@ main {
     grid-template-areas: "b b b c c c" "d d d d d d";
   }
 }
-@media screen and (max-height: 500px) {
-  .contact-infos {
-    display: none;
-  }
-}
 @media screen and (min-width: 1200px) {
   .contact-infos {
     width: 35%;
@@ -973,4 +968,11 @@ main {
   bottom: 1rem;
   color: grey;
   text-decoration: underline;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
