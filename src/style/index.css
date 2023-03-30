@@ -839,4 +839,144 @@ main {
 }
 .contact .formMessage .error {
   background: rgb(246, 147, 147);
+}
+
+.contact-infos {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-rows: repeat(4, 23%) 12%;
+  height: 70%;
+  width: 30%;
+  max-width: 500px;
+}
+@media screen and (max-width: 740px) {
+  .contact-infos {
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a b c" "d d d" "e e f";
+  }
+}
+@media screen and (max-width: 540px) {
+  .contact-infos {
+    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "b b b c c c" "d d d d d d" "e e e e f f";
+  }
+}
+@media screen and (max-height: 500px) {
+  .contact-infos {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-infos {
+    width: 35%;
+    height: 83%;
+  }
+}
+.contact-infos h4 {
+  color: rgb(141, 141, 141);
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .contact-infos h4 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-infos p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-height: 640px) {
+  .contact-infos .email,
+  .contact-infos .phone {
+    display: none;
+  }
+}
+.contact-infos .email .content p,
+.contact-infos .phone .content p {
+  transition: 0.25s;
+}
+.contact-infos .email .content p:hover,
+.contact-infos .phone .content p:hover {
+  transform: translateX(5px);
+}
+.contact-infos .address {
+  position: relative;
+}
+@media screen and (max-width: 540px) {
+  .contact-infos .address {
+    display: none;
+  }
+}
+.contact-infos .address .content {
+  position: absolute;
+  right: 10px;
+}
+.contact-infos .phone {
+  position: relative;
+}
+@media screen and (max-width: 540px) {
+  .contact-infos .phone {
+    text-align: center;
+    font-size: 0.8rem;
+    grid-area: b;
+  }
+}
+.contact-infos .phone .content {
+  position: absolute;
+  left: 40%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 540px) {
+  .contact-infos .phone .content {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 540px) {
+  .contact-infos .email {
+    grid-area: c;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+.contact-infos .social-network {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 740px) {
+  .contact-infos .social-network {
+    width: 50%;
+    grid-area: d;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-infos .social-network {
+    font-size: 2rem;
+  }
+}
+.contact-infos .social-network .content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.credits {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  color: grey;
+  text-decoration: underline;
 }/*# sourceMappingURL=index.css.map */

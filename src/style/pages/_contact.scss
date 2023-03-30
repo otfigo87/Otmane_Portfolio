@@ -26,16 +26,19 @@
       50% {
         transform: scale(1.4);
       }
+
       100% {
         transform: scale(1);
       }
     }
   }
+
   .navigation {
     @media screen and (max-width: 440px) {
       display: none;
     }
   }
+
   .logo {
     top: 15px;
     right: 1rem;
@@ -50,9 +53,11 @@
     @media screen and (max-width: 740px) {
       margin: 2rem 0 0 30%;
     }
+
     @media screen and (max-width: 440px) {
       margin-left: 2rem;
     }
+
     h2 {
       margin-bottom: 50px;
 
@@ -84,11 +89,13 @@
           font-size: 1.5rem;
         }
       }
+
       input {
         padding: 10px 6px;
         margin-bottom: 30px;
       }
     }
+
     textarea {
       resize: none;
       padding: 6px 0;
@@ -99,6 +106,7 @@
         padding: 12px 0;
       }
     }
+
     input.button {
       background: $color-3;
       height: 55px;
@@ -111,17 +119,167 @@
       border: none;
     }
   }
+
   .formMessage {
     p {
       border-radius: 20px;
       text-align: center;
       padding: 5px 0;
     }
+
     .success {
       background: rgb(139, 248, 139);
     }
+
     .error {
       background: rgb(246, 147, 147);
     }
   }
+}
+
+.contact-infos {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-rows: repeat(4, 23%) 12%;
+  height: 70%;
+  width: 30%;
+  max-width: 500px;
+
+  @media screen and (max-width: 740px) {
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "a b c"
+      "d d d"
+      "e e f";
+  }
+
+  @media screen and (max-width: 540px) {
+    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "b b b c c c"
+      "d d d d d d"
+      "e e e e f f";
+  }
+
+  @media screen and (max-height: 500px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 35%;
+    height: 83%;
+  }
+
+  h4 {
+    color: $color-4;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  p {
+    @media screen and (min-width: 1200px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .email,
+  .phone {
+    @media screen and (max-height: 640px) {
+      display: none;
+    }
+  }
+
+  .email .content p,
+  .phone .content p {
+    transition: 0.25s;
+
+    &:hover {
+      transform: translateX(5px);
+    }
+  }
+
+  .address {
+    position: relative;
+
+    @media screen and (max-width: 540px) {
+      display: none;
+    }
+
+    .content {
+      position: absolute;
+      right: 10px;
+    }
+  }
+
+  .phone {
+    position: relative;
+
+    @media screen and (max-width: 540px) {
+      text-align: center;
+      font-size: 0.8rem;
+      grid-area: b;
+    }
+
+    .content {
+      position: absolute;
+      left: 40%;
+      transform: translateX(-50%);
+
+      @media screen and (max-width: 540px) {
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .email {
+    @media screen and (max-width: 540px) {
+      grid-area: c;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+
+  .social-network {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 740px) {
+      width: 50%;
+      grid-area: d;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 2rem;
+    }
+
+    .content {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.credits {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  color: grey;
+  text-decoration: underline;
 }

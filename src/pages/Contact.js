@@ -5,6 +5,7 @@ import Logo from '../components/Logo';
 import ContactForm from '../components/ContactForm';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import SocialMedia from "../components/SocialMedia";
+import Buttons from "../components/Buttons";
 
 const Contact = () => {
   return (
@@ -50,6 +51,10 @@ const Contact = () => {
             </div>
           </div>
           <SocialMedia />
+        </div>
+        <Buttons left={"/project4"} />
+        <div className="credits">
+          <p>Otmane Aatik</p>
         </div>
       </div>
     </main>
