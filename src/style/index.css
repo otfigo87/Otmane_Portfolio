@@ -712,4 +712,131 @@ main {
   .project .random-circle {
     display: none;
   }
+}
+
+.contact {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.contact:after {
+  content: "";
+  height: 700px;
+  width: 700px;
+  background: #e7f7fe;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  right: -460px;
+  z-index: -10;
+  animation: contactAnim 25s alternate infinite;
+}
+@media screen and (max-width: 840px) {
+  .contact:after {
+    height: 400px;
+    width: 400px;
+    top: 520px;
+    right: -140px;
+  }
+}
+@keyframes contactAnim {
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 440px) {
+  .contact .navigation {
+    display: none;
+  }
+}
+.contact .logo {
+  top: 15px;
+  right: 1rem;
+}
+.contact .form-container {
+  margin: 7% 0 0 24%;
+  max-width: 50%;
+  position: relative;
+  max-width: 300px;
+}
+@media screen and (max-width: 740px) {
+  .contact .form-container {
+    margin: 2rem 0 0 30%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .contact .form-container {
+    margin-left: 2rem;
+  }
+}
+.contact .form-container h2 {
+  margin-bottom: 50px;
+}
+.contact .form-container h2:after {
+  content: "";
+  height: 70px;
+  width: 70px;
+  border: 1px #00c1ec solid;
+  border-radius: 50%;
+  position: absolute;
+  top: -22px;
+  left: 80px;
+  z-index: -1;
+}
+.contact .form-container .form-content {
+  display: grid;
+}
+.contact .form-container .form-content input,
+.contact .form-container .form-content textarea {
+  background: none;
+  font-family: "font-1", sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #00c1ec;
+  border-radius: 5px;
+}
+@media screen and (min-width: 1200px) {
+  .contact .form-container .form-content input,
+  .contact .form-container .form-content textarea {
+    font-size: 1.5rem;
+  }
+}
+.contact .form-container .form-content input {
+  padding: 10px 6px;
+  margin-bottom: 30px;
+}
+.contact .form-container textarea {
+  resize: none;
+  padding: 6px 0;
+  height: 75px;
+}
+@media screen and (max-width: 540px) {
+  .contact .form-container textarea {
+    width: 75%;
+    padding: 12px 0;
+  }
+}
+.contact .form-container input.button {
+  background: #e7f7fe;
+  height: 55px;
+  width: 126px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+.contact .formMessage p {
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 0;
+}
+.contact .formMessage .success {
+  background: rgb(139, 248, 139);
+}
+.contact .formMessage .error {
+  background: rgb(246, 147, 147);
 }/*# sourceMappingURL=index.css.map */
