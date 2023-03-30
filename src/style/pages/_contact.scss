@@ -142,7 +142,7 @@
   bottom: 0;
   right: 0;
   display: grid;
-  grid-template-rows: repeat(4, 23%) 12%;
+  grid-template-rows: repeat(4, 23%) ;
   height: 70%;
   width: 30%;
   max-width: 500px;
@@ -157,16 +157,16 @@
     grid-template-areas:
       "a b c"
       "d d d"
-      "e e f";
+      ;
   }
 
   @media screen and (max-width: 540px) {
-    grid-template-rows: repeat(3, 60px);
+    grid-template-rows: repeat(2, 60px);
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
       "b b b c c c"
       "d d d d d d"
-      "e e e e f f";
+      ;
   }
 
   @media screen and (max-height: 500px) {
