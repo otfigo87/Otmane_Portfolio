@@ -146,6 +146,7 @@
   height: 70%;
   width: 30%;
   max-width: 500px;
+ 
 
   @media screen and (max-width: 740px) {
     height: 200px;
@@ -190,16 +191,18 @@
 
   p {
     @media screen and (min-width: 1200px) {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 
-  .email,
-  .phone {
-    @media screen and (max-height: 640px) {
-      display: none;
-    }
-  }
+  //small heights ==> phones
+
+  // .email,
+  // .phone {
+  //   @media screen and (max-height: 640px) {
+  //     display: none;
+  //   }
+  // }
 
   .email .content p,
   .phone .content p {
@@ -258,6 +261,7 @@
     position: relative;
     width: 80%;
     margin: 0 auto;
+    // margin-top: 20px;
 
     @media screen and (max-width: 740px) {
       width: 50%;

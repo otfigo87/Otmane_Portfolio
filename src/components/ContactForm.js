@@ -8,6 +8,7 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    //this is where to insert my Error/Success when someone send a message
     const formMess = document.querySelector(".form-message");
 
     emailjs
@@ -22,7 +23,7 @@ const ContactForm = () => {
           console.log(result.text);
           form.current.reset();
           formMess.innerHTML = "<p className='success'>Message Sent !</p>";
-          setTimeout(() => {
+          setTimeout(() => { 
             formMess.innerHTML = "";
           }, 2500);
         },

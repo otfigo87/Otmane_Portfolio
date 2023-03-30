@@ -892,13 +892,7 @@ main {
 }
 @media screen and (min-width: 1200px) {
   .contact-infos p {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-height: 640px) {
-  .contact-infos .email,
-  .contact-infos .phone {
-    display: none;
+    font-size: 1.4rem;
   }
 }
 .contact-infos .email .content p,

@@ -31,7 +31,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Phone number copied!")}
                 >
-                  724-699-8084
+                 724-699-8084
                 </p>
               </CopyToClipboard>
             </div>
