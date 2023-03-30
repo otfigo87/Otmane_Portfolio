@@ -6,12 +6,25 @@ import ContactForm from '../components/ContactForm';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import SocialMedia from "../components/SocialMedia";
 import Buttons from "../components/Buttons";
+import {motion} from "framer-motion"
 
 const Contact = () => {
+
+  const pageTransition = {
+    in: {
+      opacity: 1,
+      x: 0
+    },
+    out: {
+      opacity: 0,
+      x: 300
+    }
+  }
   return (
     <main>
       <Mouse />
-      <div className="contact">
+      <motion.div variants={pageTransition} initial="out" animate="in"  exit="out"
+      transition={{duration: 0.5}} className="contact">
         <Navigation />
         <Logo />
         <ContactForm />
@@ -31,7 +44,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Phone number copied!")}
                 >
-                 724-699-8084
+                  724-699-8084
                 </p>
               </CopyToClipboard>
             </div>
@@ -56,7 +69,7 @@ const Contact = () => {
         <div className="credits">
           <p>Otmane Aatik</p>
         </div>
-      </div>
+      </motion.div>
     </main>
   );
 }
