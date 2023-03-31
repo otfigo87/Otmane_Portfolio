@@ -8,6 +8,7 @@ export const projectsData = [
       "An application that tracks the changes in cryptocurrency market. With access to up-to-date market data, users can stay informed and make more informed decisions about when to buy or sell different cryptocurrencies.",
     img: "./assets/img/projet-2.jpg",
     link: "https://cryp-watch.netlify.app",
+    code: "https://github.com/otfigo87/Crypto-Watch",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const projectsData = [
       "Webapp to showcase the stunning portfolio of a professional photographer. With high-quality images and easy navigation, potential clients can browse the photographer's work and learn about their services.",
     img: "./assets/img/Screenshot2.png",
     link: "https://github.com/otfigo87/photography",
+    code: "https://github.com/otfigo87/photography",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const projectsData = [
       "Think you know all flags? Try this Flags Quiz Game, Test your knowledge on geography and compare your score to others, Guess the flags of 197 countries from Afghanistan to Zimbabwe.",
     img: "./assets/img/project3.jpg",
     link: "https://otfigo87.github.io/mod1-flag-quiz-game/",
+    code: "https://github.com/otfigo87/mod1-flag-quiz-game",
   },
   {
     id: 4,
@@ -38,5 +41,6 @@ export const projectsData = [
       "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
     img: "./assets/img/projet-4.jpg",
     link: "https://github.com/otfigo87",
+    code: "https://github.com/otfigo87",
   },
 ];

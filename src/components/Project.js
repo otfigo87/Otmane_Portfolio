@@ -85,7 +85,7 @@ const Project = ({ projectNumber }) => {
           </span>
           <img src={currentProject.img} alt={currentProject.title} />
         </div>
-        <div className="button-container">
+        <div className="button-container" style={{display: "flex"}}>
           <a
             href={currentProject.link}
             target="_blank"
@@ -93,6 +93,14 @@ const Project = ({ projectNumber }) => {
             rel="noopener noreferrer"
           >
             <span className="button">Discover more</span>
+          </a>
+          <a
+            href={currentProject.code}
+            target="_blank"
+            className="hover"
+            rel="noopener noreferrer"
+          >
+            <span className="button" style={{marginLeft: "20px"}}>Code</span>
           </a>
         </div>
       </motion.div>
