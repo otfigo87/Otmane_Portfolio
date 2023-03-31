@@ -8,6 +8,7 @@ import SocialMedia from "../components/SocialMedia";
 import Buttons from "../components/Buttons";
 import {motion} from "framer-motion";
 import axios from "axios";
+import Weather from "../components/Weather";
 
 const Contact = () => {
 
@@ -20,9 +21,9 @@ const Contact = () => {
       )
       .then((res) => setWeather(res.data.current))
       .catch((err) => console.log(err));
-  }, [weather])
+  }, [])
 
-  console.log(weather)
+  // console.log(weather)
   const pageTransition = {
     in: {
       opacity: 1,
@@ -45,27 +46,14 @@ const Contact = () => {
         className="contact"
       >
         <Navigation />
+        <Weather weather={weather}/>
         <Logo />
         <ContactForm />
         <div className="contact-infos">
           <div className="address">
             <div className="content">
-              <p>Pittsburgh</p>
-              <motion.div
-                className="weather"
-                drag
-                dragConstraints={{
-                  left: -250,
-                  right: 250,
-                  top: -200,
-                  bottom: 250,
-                }}
-                style={{ cursor: "pointer" }}
-              >
-                <img src={weather.condition.icon} alt="weather icon" />
-                <h5>{weather.condition.text}</h5>
-                <h4>{`${weather.temp_f} °F`}</h4>
-              </motion.div>
+              <h4>Location</h4>
+              <p>Pittsburgh, PA</p>
             </div>
           </div>
           <div className="phone">

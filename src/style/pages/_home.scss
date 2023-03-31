@@ -85,7 +85,9 @@
       }
       h2 {
         font-size: 4.2rem;
+        font-style: italic;
         font-weight: 100;
+        cursor: pointer;
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
