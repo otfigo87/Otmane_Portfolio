@@ -9,10 +9,12 @@ import Buttons from "../components/Buttons";
 import {motion} from "framer-motion";
 import axios from "axios";
 import Weather from "../components/Weather";
+// import { useLocation } from "react-router-dom";
 
 const Contact = () => {
 
   const [weather, setWeather] = useState()
+
 
   useEffect(() => {
     axios
