@@ -7,7 +7,7 @@ export const projectsData = [
     infos:
       "An application that tracks the changes in cryptocurrency market. With access to up-to-date market data, users can stay informed and make more informed decisions about when to buy or sell different cryptocurrencies.",
     img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
+    link: "https://cryp-watch.netlify.app",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const projectsData = [
     infos:
       "Webapp to showcase the stunning portfolio of a professional photographer. With high-quality images and easy navigation, potential clients can browse the photographer's work and learn about their services.",
     img: "./assets/img/Screenshot2.png",
-    link: "http://www.google.com",
+    link: "https://github.com/otfigo87/photography",
   },
   {
     id: 3,
@@ -37,6 +37,6 @@ export const projectsData = [
     infos:
       "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
     img: "./assets/img/projet-4.jpg",
-    link: "http://www.google.com",
+    link: "https://github.com/otfigo87",
   },
 ];
