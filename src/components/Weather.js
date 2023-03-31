@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 const Weather = ({weather}) => {
     // console.log(weather)
     if (!weather) {
-    return <div>No weather data available.</div>
+    return <div></div>
     }
   
     return (
