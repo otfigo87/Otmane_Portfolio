@@ -755,18 +755,18 @@ main {
   }
 }
 .contact .logo {
-  top: 15px;
+  top: 10px;
   right: 1rem;
 }
 .contact .form-container {
   margin: 7% 0 0 24%;
   max-width: 50%;
   position: relative;
-  max-width: 300px;
+  max-width: 320px;
 }
 @media screen and (max-width: 740px) {
   .contact .form-container {
-    margin: 2rem 0 0 30%;
+    margin: 2rem 0 0 25%;
   }
 }
 @media screen and (max-width: 440px) {
@@ -776,17 +776,19 @@ main {
 }
 .contact .form-container h2 {
   margin-bottom: 50px;
+  font-size: 1.7rem;
 }
 .contact .form-container h2:after {
   content: "";
-  height: 70px;
-  width: 70px;
-  border: 1px #00c1ec solid;
+  height: 60px;
+  width: 60px;
+  border: none;
   border-radius: 50%;
   position: absolute;
-  top: -22px;
-  left: 80px;
+  top: -20px;
+  left: 0px;
   z-index: -1;
+  background: #e7f7fe;
 }
 .contact .form-container .form-content {
   display: grid;
@@ -831,21 +833,21 @@ main {
   transition: 0.2s;
   border: none;
 }
-.contact .formMessage p {
+.contact .form-message p {
   border-radius: 20px;
   text-align: center;
   padding: 5px 0;
 }
-.contact .formMessage .success {
+.contact .form-message .success {
   background: rgb(139, 248, 139);
 }
-.contact .formMessage .error {
+.contact .form-message .error {
   background: rgb(246, 147, 147);
 }
 
 .contact-infos {
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
   right: 0;
   display: grid;
   grid-template-rows: repeat(4, 23%);
@@ -878,18 +880,19 @@ main {
 }
 .contact-infos h4 {
   color: rgb(141, 141, 141);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 200;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 1200px) {
   .contact-infos h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 1200px) {
   .contact-infos p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-style: italic;
   }
 }
 .contact-infos .email .content p,
@@ -910,10 +913,7 @@ main {
 }
 .contact-infos .address .content {
   position: absolute;
-  right: 10px;
-}
-.contact-infos .phone {
-  position: relative;
+  right: 40px;
 }
 @media screen and (max-width: 540px) {
   .contact-infos .phone {
@@ -924,7 +924,7 @@ main {
 }
 .contact-infos .phone .content {
   position: absolute;
-  left: 40%;
+  left: 45%;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 540px) {

@@ -8,7 +8,7 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    //this is where to insert my Error/Success when someone send a message
+    //this is where to insert Error/Success when someone send a message
     const formMess = document.querySelector(".form-message");
 
     emailjs

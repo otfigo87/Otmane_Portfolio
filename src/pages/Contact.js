@@ -81,7 +81,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Email copied!")}
                 >
-                  aaotmane@gmail.com
+                  Aaotmane@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
