@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["React", "Redux", "Sass"],
     infos:
       "An application that tracks the changes in cryptocurrency market. With access to up-to-date market data, users can stay informed and make more informed decisions about when to buy or sell different cryptocurrencies.",
-    img: "./assets/img/screenshot1.png",
+    img: "./assets/img/Screenshot.png",
     link: "https://cryp-watch.netlify.app",
     code: "https://github.com/otfigo87/Crypto-Watch",
   },
