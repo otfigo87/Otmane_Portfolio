@@ -10,10 +10,19 @@ Building my website is an excellent way to demonstrate my skills and abilities t
 
 ### Contact information:   
 Email: Aaotmane@gmail.com
-Twitter
-LinkedIn    
+[Twitter](https://twitter.com)
+[LinkedIn](https://www.linkedin.com/in/otmane-aatik/)
 
 ### Tech Stack:  
+- React
+- React Router
+- React Hooks {useState, useEffect, useRef}
+- SASS/SCSS
+- DOM Manipulation
+- Framer-motion
+- Axios
+- EmailJS
+- Copy-to-clipboard
 
 ### API Reference:
 ```http: api.weatherapi.com
@@ -24,16 +33,19 @@ LinkedIn
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
-### Link:   
-Otmane Aatik
 
 ## Screenshots:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./public/assets/img/readme1.png)
+![App Screenshot](./public/assets/img/readme2.png)
+![App Screenshot](./public/assets/img/readme3.png)
+
+### Link:   
+[Otmane Aatik](https://otmaneaatik.netlify.app)
 
 ## Feedback:
 If you have any feedback, please reach out to me at aaotmane@gmail.com
 
-### copyright:
- notice to denote everything is yours.      
-Putting an avatar or logo would be good too.    
+### copyright:    
+Copyright © 2023 Otmane Aatik. All Rights Reserved. 
+  
 
