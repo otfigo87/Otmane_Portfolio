@@ -6,7 +6,7 @@ This was a website built to showcase my technical skills, web design skills.
 ### Why:    
 A portfolio website is a crucial tool for any web developer looking to establish themselves in the industry, attract new clients or advance their career.   
 
-Building my website is an excellent way to demonstrate my skills and abilities to potential employers or clients. By showcasing some of my previous work, a web developer can provide evidence of their expertise and experience in creating websites and applications.
+Building my website is an excellent way to demonstrate my skills and abilities to potential employers or clients. By showcasing some previous work, a web developer can provide evidence of their expertise and experience in creating websites and applications.
 
 ### Contact information:   
 Aaotmane@gmail.com    
