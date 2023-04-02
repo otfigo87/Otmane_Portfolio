@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Crypto",
     date: "April 2023",
-    languages: ["React", "Redux", "Sass"],
+    languages: ["React", "Redux", "Sass","Rest API"],
     infos:
       "An application that tracks the changes in cryptocurrency market. With access to up-to-date market data, users can stay informed and make more informed decisions about when to buy or sell different cryptocurrencies.",
     img: "./assets/img/Screenshot.png",

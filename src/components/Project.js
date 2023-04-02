@@ -85,7 +85,7 @@ const Project = ({ projectNumber }) => {
           </span>
           <img src={currentProject.img} alt={currentProject.title} />
         </div>
-        <div className="button-container" style={{display: "flex"}}>
+        <div className="button-container" style={{ display: "flex" }}>
           <a
             href={currentProject.link}
             target="_blank"
@@ -100,7 +100,9 @@ const Project = ({ projectNumber }) => {
             className="hover"
             rel="noopener noreferrer"
           >
-            <span className="button" style={{marginLeft: "20px"}}>Code</span>
+            <span className="button" style={{ marginLeft: "20px" }}>
+              &lt; Code /&gt;
+            </span>
           </a>
         </div>
       </motion.div>
@@ -108,6 +110,9 @@ const Project = ({ projectNumber }) => {
         className="random-circle"
         style={{ left, top, transform: size }}
       ></span>
+      <div className="credits">
+        <p>Otmane Aatik</p>
+      </div>
     </motion.div>
   );
 };

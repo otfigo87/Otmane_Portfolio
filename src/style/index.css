@@ -473,8 +473,8 @@ main {
   padding: 0 20px;
 }
 .project .logo {
-  top: 10px;
-  left: 5%;
+  top: 12px;
+  left: 3%;
   transform: translateX(-50%);
   transform: scale(0);
   animation: logoProject 2s ease forwards;
@@ -534,7 +534,7 @@ main {
 }
 @media screen and (max-width: 450px) {
   .project .project-main .project-content h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @keyframes transformTitle {
@@ -546,10 +546,12 @@ main {
   margin-bottom: 30px;
   color: rgb(141, 141, 141);
   font-size: 1.2rem;
+  text-decoration: underline;
 }
 @media screen and (max-width: 700px) {
   .project .project-main .project-content p {
     margin: 0;
+    margin-right: 15px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -576,7 +578,7 @@ main {
   }
 }
 .project .project-main .project-content li {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: font-2;
   color: rgb(55, 60, 110);
 }
@@ -587,7 +589,7 @@ main {
 }
 @media screen and (max-width: 400px) {
   .project .project-main .project-content li {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 .project .project-main .img-content {
@@ -599,6 +601,7 @@ main {
   .project .project-main .img-content {
     text-align: center;
     margin: 0 auto;
+    margin-top: 20px;
   }
 }
 .project .project-main .img-content .img-container {
@@ -661,6 +664,7 @@ main {
   font-size: 1.5rem;
   transition: 0.5s ease;
   transform: translateY(200px);
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
 }
 @media screen and (max-width: 540px) {
   .project .project-main .img-content .img-container span {
@@ -681,7 +685,7 @@ main {
   justify-content: center;
   color: #fafeff;
   background: #00c1ec;
-  width: 170px;
+  width: 150px;
 }
 @media screen and (max-width: 410px) {
   .project .button-container a .button {
@@ -712,6 +716,24 @@ main {
 }
 @media screen and (max-width: 630px) {
   .project .random-circle {
+    display: none;
+  }
+}
+.project .credits {
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+@media screen and (max-width: 940px) {
+  .project .credits {
+    bottom: -140px;
+    left: -5px;
+  }
+}
+@media screen and (min-height: 750px) {
+  .project .credits {
     display: none;
   }
 }

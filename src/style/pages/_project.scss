@@ -54,8 +54,8 @@
     }
   }
   .logo {
-    top: 10px;
-    left: 5%;
+    top: 12px;
+    left: 3%;
     transform: translateX(-50%);
     transform: scale(0);
     animation: logoProject 2s ease forwards;
@@ -107,7 +107,7 @@
           font-size: 2rem;
         }
         @media screen and (max-width: 450px){
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
 
         @keyframes transformTitle {
@@ -120,9 +120,11 @@
         margin-bottom: 30px;
         color: $color-4;
         font-size: 1.2rem;
+        text-decoration: underline;
 
         @media screen and (max-width: 700px){
-          margin: 0;
+          margin: 0 ;
+          margin-right: 15px;
         }
         @media screen and (max-width: 450px){
           font-size: .9rem;
@@ -147,7 +149,7 @@
         }
       }
       li {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-family: font-2 ;
         color:rgb(55, 60, 110);
 
@@ -155,7 +157,7 @@
           font-size: 1.1rem;
         }
         @media screen and (max-width: 400px){
-          font-size: .8rem;
+          font-size: .7rem;
         }
       }
     }
@@ -167,6 +169,7 @@
       @media screen and (max-width: 700px){
         text-align: center;
         margin: 0 auto;
+        margin-top: 20px;
       }
 
       .img-container {
@@ -213,7 +216,7 @@
           }
         }
         span {
-          visibility: hidden;
+          visibility: hidden; //starting point
           position: absolute;
           bottom: 20px;
           left: 0;
@@ -224,6 +227,8 @@
           font-size: 1.5rem;
           transition: 0.5s ease;
           transform: translateY(200px);
+          text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+              0px -4px 10px rgba(255, 255, 255, 0.3);
 
           @media screen and (max-width: 540px){
             font-size: 1rem;
@@ -250,7 +255,7 @@
         justify-content: center;
         color: $color-1;
         background: $color-2;
-        width: 170px;
+        width: 150px;
 
         @media screen and (max-width: 410px){
           width: 100px;
@@ -285,5 +290,23 @@
     @media screen and (max-width: 630px){
       display: none;
     }
+  }
+
+  .credits {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    font-size: 1rem;
+    font-style: italic;
+    @media screen and (max-width: 940px) {
+        bottom: -140px;
+        left: -5px;
+      }
+    @media screen and (min-height: 750px) {
+      display: none;
+    }
+    // @media screen and (min-width: 1450px) {
+    //        display: none;
+    //      }
   }
 }
