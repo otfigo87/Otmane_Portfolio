@@ -18,6 +18,7 @@ Aaotmane@gmail.com
 - React Router
 - React Hooks: { useState, useEffect, useRef }
 - SASS/SCSS
+- Font-Awesome
 - DOM Manipulation
 - Framer-motion
 - Axios
@@ -25,6 +26,7 @@ Aaotmane@gmail.com
 - Copy-to-clipboard
 
 ### API Reference:
+
 ```http: api.weatherapi.com
   GET `http://api.weatherapi.com/v1/current.json?[API_KEY]`
 ```
