@@ -9,14 +9,14 @@ A portfolio website is a crucial tool for any web developer looking to establish
 Building my website is an excellent way to demonstrate my skills and abilities to potential employers or clients. By showcasing some of my previous work, a web developer can provide evidence of their expertise and experience in creating websites and applications.
 
 ### Contact information:   
-Email: Aaotmane@gmail.com
-[Twitter](https://twitter.com)
-[LinkedIn](https://www.linkedin.com/in/otmane-aatik/)
+Aaotmane@gmail.com    
+[Twitter](https://twitter.com)    
+[LinkedIn](https://www.linkedin.com/in/otmane-aatik/)    
 
 ### Tech Stack:  
 - React
 - React Router
-- React Hooks {useState, useEffect, useRef}
+- React Hooks: { useState, useEffect, useRef }
 - SASS/SCSS
 - DOM Manipulation
 - Framer-motion
@@ -37,7 +37,6 @@ Email: Aaotmane@gmail.com
 ## Screenshots:
 ![App Screenshot](./public/assets/img/readme1.png)
 ![App Screenshot](./public/assets/img/readme2.png)
-![App Screenshot](./public/assets/img/readme3.png)
 
 ### Link:   
 [Otmane Aatik](https://otmaneaatik.netlify.app)
