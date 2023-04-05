@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
@@ -7,23 +7,23 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import SocialMedia from "../components/SocialMedia";
 import Buttons from "../components/Buttons";
 import {motion} from "framer-motion";
-import axios from "axios";
-import Weather from "../components/Weather";
+// import axios from "axios";
+// import Weather from "../components/Weather";
 // import { useLocation } from "react-router-dom";
 
 const Contact = () => {
 
-  const [weather, setWeather] = useState()
+  // const [weather, setWeather] = useState()
 
 
-  useEffect(() => {
-    axios
-      .get(
-        `http://api.weatherapi.com/v1/current.json?key=f8bcee1649274f47a2f180053233003&q=15222&aqi=yes`
-      )
-      .then((res) => setWeather(res.data.current))
-      .catch((err) => console.log(err));
-  }, [])
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       `http://api.weatherapi.com/v1/current.json?key=f8bcee1649274f47a2f180053233003&q=15222&aqi=yes`
+  //     )
+  //     .then((res) => setWeather(res.data.current))
+  //     .catch((err) => console.log(err));
+  // }, [])
 
   // console.log(weather)
   const pageTransition = {
@@ -48,7 +48,7 @@ const Contact = () => {
         className="contact"
       >
         <Navigation />
-        <Weather weather={weather}/>
+        {/* <Weather weather={weather}/> */}
         <Logo />
         <ContactForm />
         <div className="contact-infos">
