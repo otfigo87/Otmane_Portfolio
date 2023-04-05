@@ -34,7 +34,7 @@ const SocialMedia = () => {
           </li>
         </a>
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/otfigo87"
           target="_blank"
           rel="noreferrer"
           className="hover"

@@ -61,13 +61,13 @@
 //projects li
     .nav-projects {
       position: absolute;
-      visibility: hidden;
+      visibility: hidden; //starting point
       opacity: 0;
       padding: 0 40px;
       width: 300px;
       transform: translateX(70px);
       transition: .3s ;
-      perspective: 500px;
+      perspective: 1000px; // 3D perspective
 
       li {
         transform: rotate(30deg) scaleX(1.2);

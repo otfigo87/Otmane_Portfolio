@@ -169,7 +169,7 @@ main {
   width: 300px;
   transform: translateX(70px);
   transition: 0.3s;
-  perspective: 500px;
+  perspective: 1000px;
 }
 .navigation .nav-portfolio .nav-projects li {
   transform: rotate(30deg) scaleX(1.2);
@@ -236,7 +236,7 @@ main {
   width: 300px;
   text-align: left;
   animation: color 30s alternate infinite;
-  perspective: 200px;
+  perspective: 500px;
   transform: translateX(26px);
 }
 .dynamic-text .word {
@@ -388,7 +388,7 @@ main {
   font-size: 5rem;
 }
 .scroll .left {
-  left: 15px;
+  left: 20px;
 }
 .scroll .right {
   right: -24px;
@@ -997,8 +997,8 @@ main {
 
 .weather-container {
   position: absolute;
-  top: 10px;
-  right: 300px;
+  top: 15px;
+  right: 90px;
   margin-left: 10px;
   display: flex;
   flex-direction: column;

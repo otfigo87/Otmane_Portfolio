@@ -8,7 +8,7 @@
   pointer-events: none;
   transition: 500ms ease-out;
   z-index: 2;
-  backdrop-filter: brightness(115%);
+  backdrop-filter: brightness(115%); //visual behind the mouse
 }
 .cursor.hovered {
   width: 30px;

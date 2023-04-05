@@ -36,9 +36,9 @@ const DynamicText = () => {
           } else { //next word
             letterIndex = 0;
             wordIndex++;
-            setTimeout(loop, 2500);
+            setTimeout(loop, 2500); //between words
           }
-        }, 80);
+        }, 80); //between letters
       };
 
       loop();

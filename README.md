@@ -38,7 +38,6 @@ Aaotmane@gmail.com
 
 ## Screenshots:
 ![App Screenshot](./public/assets/img/readme1.png)
-![App Screenshot](./public/assets/img/readme2.png)
 
 ### Link:   
 [Otmane Aatik](https://otmaneaatik.netlify.app)
