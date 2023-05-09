@@ -5,7 +5,7 @@ import Logo from "../components/Logo";
 import Buttons from "../components/Buttons";
 import Project from "../components/Project";
 
-const Project1 = () => {
+const Project5 = () => {
   return (
     <main>
       <Mouse />
@@ -19,4 +19,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project5;
