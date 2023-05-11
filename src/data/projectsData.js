@@ -17,7 +17,7 @@ export const projectsData = [
     languages: ["React", "Redux", "NodeJs"],
     infos:
       "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
-    img: "./assets/img/project-4.jpg",
+    img: "./assets/img/project2.png",
     link: "https://github.com/otfigo87",
     code: "https://github.com/otfigo87",
   },
