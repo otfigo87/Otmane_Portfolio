@@ -45,7 +45,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "SEI Cafe",
+    title: "SEI Café",
     date: "Mars 2023",
     languages: ["React", "Express", "NodeJs", "MongoDB"],
     infos:
