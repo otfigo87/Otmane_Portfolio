@@ -12,6 +12,17 @@ export const projectsData = [
   },
   {
     id: 2,
+    title: "Creative Dev",
+    date: "Coming Soon...",
+    languages: ["React", "Redux", "NodeJs"],
+    infos:
+      "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
+    img: "./assets/img/project-4.jpg",
+    link: "https://github.com/otfigo87",
+    code: "https://github.com/otfigo87",
+  },
+  {
+    id: 3,
     title: "Lyon Béton",
     date: "July 2022",
     languages: ["React", "Framer-motion", "Styled-Components"],
@@ -22,7 +33,7 @@ export const projectsData = [
     code: "https://github.com/otfigo87/photography",
   },
   {
-    id: 3,
+    id: 4,
     title: "Nations",
     date: "Mars 2023",
     languages: ["HTML", "CSS", "JavaScript"],
@@ -31,17 +42,6 @@ export const projectsData = [
     img: "./assets/img/project3.jpg",
     link: "https://otfigo87.github.io/mod1-flag-quiz-game/",
     code: "https://github.com/otfigo87/mod1-flag-quiz-game",
-  },
-  {
-    id: 4,
-    title: "Creative Dev",
-    date: "Coming Soon...",
-    languages: ["React", "Redux", "NodeJs"],
-    infos:
-      "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
-    img: "./assets/img/project-4.jpg",
-    link: "https://github.com/otfigo87",
-    code: "https://github.com/otfigo87",
   },
   {
     id: 5,
