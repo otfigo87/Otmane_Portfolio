@@ -49,7 +49,7 @@ export const projectsData = [
     date: "Mars 2023",
     languages: ["React", "Express", "NodeJs", "MongoDB"],
     infos:
-      "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
+      "Online store for a delightful café experience. Sign up, browse, and order with ease for a taste of exquisite drinks and delicious food, all within a user-friendly interface.",
     img: "./assets/img/project5.png",
     link: "https://github.com/otfigo87",
     code: "https://github.com/otfigo87",
