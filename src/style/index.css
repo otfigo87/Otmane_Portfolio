@@ -637,8 +637,8 @@ main {
 }
 .project .project-main .img-content .img-container img {
   overflow: hidden;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   -o-object-position: 0%;
      object-position: 0%;
   width: 100%;

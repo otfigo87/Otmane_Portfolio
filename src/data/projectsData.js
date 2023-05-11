@@ -12,11 +12,11 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Creative Dev",
-    date: "Coming Soon...",
-    languages: ["React", "Redux", "NodeJs"],
+    title: "Connectify",
+    date: "May 2023",
+    languages: ["React", "Redux", "NodeJs", "MongoDB"],
     infos:
-      "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
+      "Introducing the first version of my new social media app, built using the MERN stack. This app is designed to bring people together and make it easy to connect and share with friends and family...",
     img: "./assets/img/project2.png",
     link: "https://github.com/otfigo87",
     code: "https://github.com/otfigo87",
@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: 4,
     title: "Nations",
-    date: "Mars 2023",
+    date: "February 2023",
     languages: ["HTML", "CSS", "JavaScript"],
     infos:
       "Think you know all flags? Try this Flags Quiz Game, Test your knowledge on geography and compare your score to others, Guess the flags of 197 countries from Afghanistan to Zimbabwe.",
@@ -45,12 +45,12 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "dfhdfgh",
-    date: "hgfd",
-    languages: ["React", "Redux", "NodeJs"],
+    title: "SEI Cafe",
+    date: "Mars 2023",
+    languages: ["React", "Express", "NodeJs", "MongoDB"],
     infos:
       "Full-stack application that includes both front-end and back-end components, to handle the entire user experience from start to finish. involves a database, a server, and a client-side interface that users interact with.",
-    img: "./assets/img/project-4.jpg",
+    img: "./assets/img/project5.png",
     link: "https://github.com/otfigo87",
     code: "https://github.com/otfigo87",
   },
