@@ -18,7 +18,7 @@ export const projectsData = [
     infos:
       "Introducing the first version of my new social media app, built using the MERN stack. This app is designed to bring people together and make it easy to connect and share with friends and family...",
     img: "./assets/img/project2.png",
-    link: "https://github.com/otfigo87/SocialMedia-Connectify-MERN",
+    link: "https://connectify.herokuapp.com/",
     code: "https://github.com/otfigo87/SocialMedia-Connectify-MERN",
   },
   {
