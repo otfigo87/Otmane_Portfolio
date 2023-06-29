@@ -51,7 +51,7 @@ export const projectsData = [
     infos:
       "Online store for a delightful café experience. Sign up, browse, and order with ease for a taste of exquisite drinks and delicious food, all within a user-friendly interface.",
     img: "./assets/img/project5.png",
-    link: "https://seicafe-app.herokuapp.com",
+    link: "https://sei-cafe.herokuapp.com/",
     code: "https://github.com/otfigo87/SEI_cafe",
   },
 ];
